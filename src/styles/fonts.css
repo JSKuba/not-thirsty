@@ -1,0 +1,128 @@
+html {
+  font-size: 13px;
+}
+
+h1, h2, h3, h4, nav, .random .clickme-btn, .characters, .team-member-name, .logo-follow,
+.span-1, .span-2, .span-3, .span-4, .span-5 {
+  font-family: 'Galada', cursive;
+}
+
+p, .clickme-btn, .label, .ingredient-card {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, .characters, .logo-follow {
+  color: #E2007A;
+}
+
+h3, h4 {
+  color: #F9627D;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+h4 {
+  font-size: 4rem;
+}
+
+h1 {
+  font-size: 3.8rem;
+  line-height: 1;
+}
+
+.logo-follow {
+  font-size: 4.7rem;
+}
+
+h2 {
+  font-size: 5.9rem;
+}
+
+.card-row h3 {
+  font-size: 3.4rem;
+}
+
+.card-row p {
+  font-size: 1.3rem;
+}
+
+.card-row span {
+  font-family: 'Montserrat', cursive;
+  font-size: 3.3rem;
+}
+
+nav {
+  color: #F9627D;
+  font-size: 2.1rem;
+}
+
+.switch-container {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: #5B5B5B;
+}
+
+.announce-title {
+  font-size: 6rem;
+  margin: 0;
+  color: #006CE7;
+}
+
+.clickme-btn {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.random .clickme-btn {
+  font-size: 2.5rem;
+}
+
+.label {
+  font-size: .9em;
+  color: white;
+}
+
+.label-small {
+  font-size: .7em;
+}
+
+.characters {
+  font-size: 10rem;
+}
+
+.team-member-name {
+  font-size: 3rem;
+}
+
+.span-1, .span-4, .span-5 {
+  font-size: 3.2rem;
+}
+
+.span-4 {
+  font-size: 2.7rem;
+}
+
+.span-2 {
+  font-size: 4.8rem;
+}
+
+.span-3 {
+  font-size: 5.3rem;
+}
+
+.ingredient-caption {
+  color: #2E2E2E;
+}
+
+@media (min-width: 876px) {
+  html {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=fonts.css.map */

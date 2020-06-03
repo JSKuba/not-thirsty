@@ -1,0 +1,203 @@
+#about {
+  margin-bottom: 5rem;
+}
+
+#about .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about .wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.about-left img {
+  width: 70%;
+}
+
+.about-left .decoration-bar {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 46px;
+  border-radius: 30px;
+  background: #F9627D;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.about-left .decoration-bar::after {
+  content: "";
+  background: #F9ADA0;
+  position: absolute;
+  border-radius: 30px;
+  width: 70%;
+  height: 100%;
+  right: 0;
+}
+
+.about-left .decoration-bar:nth-of-type(2) {
+  bottom: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.about-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-right p {
+  width: 80%;
+}
+
+.about-lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4rem;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team-member-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team-member-avatar {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 4em;
+  padding: 3em 4em;
+}
+
+.characters {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.logo-longer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo-follow {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media (min-width: 879px) {
+  #about .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .about-upper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .about-lower {
+    margin-top: 12rem;
+  }
+  .about-left {
+    margin-bottom: 0;
+  }
+  .about-left, .about-right {
+    width: 50%;
+  }
+}
+
+.team-member-card:nth-of-type(1) .team-member-avatar {
+  border: 15px solid #E2007A;
+}
+
+.team-member-card:nth-of-type(1) .team-member-name {
+  color: #E2007A;
+}
+
+.team-member-card:nth-of-type(2) .team-member-avatar {
+  border: 15px solid #F9627D;
+}
+
+.team-member-card:nth-of-type(2) .team-member-name {
+  color: #F9627D;
+}
+
+.team-member-card:nth-of-type(3) .team-member-avatar {
+  border: 15px solid #F9ADA0;
+}
+
+.team-member-card:nth-of-type(3) .team-member-name {
+  color: #F9ADA0;
+}
+/*# sourceMappingURL=About.css.map */

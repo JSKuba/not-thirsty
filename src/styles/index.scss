@@ -1,0 +1,99 @@
+@import './colors';
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+::-webkit-scrollbar-thumb {
+  background: $color-2;
+}
+
+::-webkit-scrollbar-track {
+  background: $color-3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1400px;
+  display: flex;
+  margin: 0 auto;
+}
+
+h4 {
+  margin: 0;
+}
+
+.labels-container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  padding: .4em .8em;
+  margin: .2em 0;
+  text-align: center;
+}
+
+.clickme-btn {
+  padding: 1em 0;
+  border: none;
+  box-shadow: 3px 3px 9px #656565;
+}
+
+.coctail-svg {
+  .cls-1{fill:#f6ab45;}
+  .cls-2{fill:#014463;}
+  .cls-3{fill:#ffe27a;}
+  .cls-4{fill:#eceff9;}
+  .cls-5{fill:#004463;}
+  .cls-6{fill:#006ce7;}
+  .cls-7{fill:#3db9ff;}
+  .cls-8{fill:gold;}
+  .cls-9{fill:#ddca8c;}
+  .cls-10{fill:#00ceff;}
+  .cls-11{fill:#fff;}
+}
+
+.hide {
+  opacity: 0;
+}
+
+@media(min-width: 879px) {
+  .wrapper {
+    width: 85%;
+  }
+}
+
+@media(min-width: 1192px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media(min-width: 1267px) {
+  .wrapper {
+    width: 75%;
+  }
+}
+
+
+@media(min-width: 1406px) {
+  .wrapper {
+    width: 70%;
+  }
+}

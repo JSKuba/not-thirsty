@@ -1,0 +1,86 @@
+#result {
+  text-align: center;
+  display: none;
+}
+
+#result .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.result-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.result-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.drink-img-container {
+  padding: 2rem;
+  background-image: url("../img/bg-4.svg");
+  background-size: 100% 100%;
+}
+
+.drink-img-container img {
+  width: 80%;
+  border: 3px solid #E2007A;
+  border-radius: 4em;
+}
+
+.ingredients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.ingredient-container {
+  width: 50%;
+  min-width: 50%;
+  padding: 1.5em;
+}
+
+.ingredient-card {
+  background: #F9ADA0;
+  border-radius: 3em;
+  padding: 1em;
+}
+
+.ingredient-card img {
+  width: 100%;
+  margin-bottom: .5em;
+}
+
+@media (min-width: 879px) {
+  #result .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .result-left {
+    padding: 2em;
+  }
+  .drink-img-container {
+    padding: 4rem;
+  }
+}
+/*# sourceMappingURL=Result.css.map */

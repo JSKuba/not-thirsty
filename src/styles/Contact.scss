@@ -1,0 +1,168 @@
+@import './colors';
+
+#contact {
+  background-image: url('../img/bg-3-s.svg');
+  background-size: 100% 100%;
+  min-height: 100vh;
+  .container {
+    flex-direction: column;
+  }
+}
+
+.wrapper {
+  flex-direction: column;
+}
+
+h2 {
+  justify-self: center;
+}
+
+.contact-left-side {
+  display: flex;
+  flex: 1;
+  order: 1;
+}
+
+.map {
+  border: 3px solid $color-2;
+  border-radius: 50px;
+  box-shadow: 20px 20px 15px rgba(0, 0, 0, .2);
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+.contact-right-side {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+
+
+// STYLING SPANS #################################
+
+.span-1, .span-5 {
+  color: $color-3;
+}
+
+.span-2, .span-3 {
+  color: $color-2;
+}
+
+.span-4 {
+  color: $color-1;
+}
+
+.span-1, .span-2, .span-3, .span-4, .span-5, .contact-img {
+  position: absolute;
+}
+
+.span-1 {
+  top: 10%;
+  right: 0%;
+}
+
+.span-2 {
+  top: 20%;
+  left: 5%;
+}
+
+.span-3 {
+  top: 34%;
+  left: 15%;
+}
+
+.span-4 {
+  bottom: 35%;
+  right: 5%;
+}
+
+.span-5 {
+  bottom: 20%;
+  left: 15%;
+}
+
+.contact-img {
+  bottom: 5%;
+  right: 5%;
+  width: 30%;
+  border: 3px solid $color-2;
+  border-radius: 25px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, .2);
+}
+
+
+@media(min-width: 879px) {
+
+  #contact {
+    background-image: url('../img/bg-3.svg');
+    .container {
+      flex-direction: row;
+    }
+  }
+
+  .contact-right-side {
+    flex: 2;
+  }
+
+  .contact-left-side {
+    order: 0;
+  }
+
+  .map {
+    margin-bottom: 0;
+  }
+
+  .span-1 {
+    top: 10%;
+    right: 0%;
+  }
+  
+  .span-2 {
+    top: 20%;
+    left: 2%;
+  }
+  
+  .span-3 {
+    top: 34%;
+    left: 10%;
+  }
+  
+  .span-4 {
+    bottom: 35%;
+    right: 5%;
+  }
+  
+  .span-5 {
+    bottom: 20%;
+    left: 10%;
+  }
+
+}
+
+@media(min-width: 1640px) {
+  .span-1 {
+    top: 10%;
+    right: 10%;
+  }
+  
+  .span-2 {
+    top: 20%;
+    left: 12%;
+  }
+  
+  .span-3 {
+    top: 34%;
+    left: 20%;
+  }
+  
+  .span-4 {
+    bottom: 35%;
+    right: 15%;
+  }
+  
+  .span-5 {
+    bottom: 20%;
+    left: 20%;
+  }
+}

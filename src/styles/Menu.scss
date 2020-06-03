@@ -1,0 +1,241 @@
+@import './colors.scss';
+
+.card-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  &:last-of-type {
+    margin-bottom: 50px;
+  }
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  height: 380px;
+  align-items: center;
+  border-radius: 190px;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: -20px;
+    left: -5%;
+    height: 420px;
+    width: 110%;
+    content: "";
+    z-index: -1;
+    border-radius: 210px;
+  }
+}
+
+.card {
+  width: 45%;
+  p {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.bubbles {
+  top: 50px;
+  right: 50px;
+  position: absolute;
+  width: 25%;
+  z-index: 0;
+  .cls-2 {
+    fill: #ffffff;
+  }
+}
+
+.aside-card {
+  margin-top: 4rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  span:nth-of-type(2) {
+    color: $color-6;
+  }
+}
+
+.separator {
+  height: 3.7rem;
+  width: 10px;
+  margin: 0 20px;
+}
+
+.card-img-container {
+  width: 23%;
+  position: relative;
+  margin: 0 8%;
+  svg {
+    height: initial;
+    width: 100%;
+    position: relative;
+  }
+  &::before {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    content: "";
+    background: url('../img/shadow.svg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    filter: blur(25px);
+    opacity: .4;
+  }
+}
+
+.menu .wrapper {
+  flex-direction: column;
+  width: 85%;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin: 0 0;
+}
+
+@media(min-width: 879px) {
+
+  .card-row {
+    flex-direction: row;
+    &:nth-of-type(even) {
+      .aside-card {
+        order: -1;
+      }
+      .card-container::before {
+        left: initial;
+        right: 0;
+      }
+    }
+    &:last-of-type {
+      margin-bottom: 150px;
+    }
+  }
+
+  .aside-card {
+    width: 35%;
+    margin-top: 0;
+  }
+
+  .card-container {
+    width: 55%;
+    &::before {
+      left: 0;
+    }
+  }
+
+}
+
+
+
+
+// ----- Color styling ------
+
+.card-row:nth-of-type(1) {
+  .card-container {
+    background: #F9A0E4;
+    &::before {
+      background-color: #F962EA;
+    }
+    h3 {
+      color: #DA00E2;
+    }
+    .bubbles .cls-1 {
+      fill: #F962EA;
+    }
+    .label-small {
+      background: #FE68EF;
+    }
+  }
+  .coctail-svg {
+    .cls-6 {fill: #E700E7;}
+    .cls-7 {fill: #FE68EF;}
+    .cls-10 {fill: #FE68EF;}
+  }
+  .separator {
+    background: #F962EA;
+  }
+}
+
+.card-row:nth-of-type(2) {
+  .card-container {
+    background: #A0F9A3;
+    &::before {
+      background-color: #62F96C;
+    }
+    h3 {
+      color: #00C22D;
+    }
+    .bubbles .cls-1 {
+      fill: #62F96C;
+    }
+  }
+  .coctail-svg {
+    .cls-6 {fill: #02BF4E;}
+    .cls-7 {fill: #00FF44;}
+    .cls-10 {fill: #00FF44;}
+  }
+  .separator {
+    background: #62F96C;
+  }
+}
+
+.card-row:nth-of-type(3) {
+  .card-container {
+    background: #F9F9A0;
+    &::before {
+      background-color: #F9EF62;
+    }
+    h3 {
+      color: #E2DA00;
+    }
+    .bubbles .cls-1 {
+      fill: #FEF968;
+    }
+    .label-small {
+      color: black;
+      background: #FEF968;
+    }
+  }
+  .coctail-svg {
+    .cls-6 {fill: #E7E700;}
+    .cls-7 {fill: #FEF968;}
+    .cls-10 {fill: #FEF968;}
+  }
+  .separator {
+    background: #F9EF62;
+  }
+}
+
+.card-row:nth-of-type(4) {
+  .card-container {
+    background: #BAA0F9;
+    &::before {
+      background-color: #9E62F9;
+    }
+    h3 {
+      color: #8200C2;
+    }
+    .bubbles .cls-1 {
+      fill: #9E62F9;
+    }
+    .label-small {
+      background: #8000FF;
+    }
+  }
+  .coctail-svg {
+    .cls-6 {fill: #5402BF;}
+    .cls-7 {fill: #8000FF;}
+    .cls-10 {fill: #8000FF;}
+  }
+  .separator {
+    background: #9E62F9;
+  }
+}
