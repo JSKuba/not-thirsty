@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ca40c42a0a75298d63f56fd16d75df2",
+    "revision": "e57a23509fc8959ca788cf32d51abbb7",
     "url": "/not-thirsty/index.html"
   },
   {
-    "revision": "9453d445dba88ea75326",
-    "url": "/not-thirsty/static/css/main.432fba52.chunk.css"
+    "revision": "0c8058234643336b8185",
+    "url": "/not-thirsty/static/css/main.5fa51c83.chunk.css"
   },
   {
     "revision": "b2791bef915af2dbb4c5",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/not-thirsty/static/js/2.ea8f888e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9453d445dba88ea75326",
-    "url": "/not-thirsty/static/js/main.dd6f88c7.chunk.js"
+    "revision": "0c8058234643336b8185",
+    "url": "/not-thirsty/static/js/main.4e085366.chunk.js"
   },
   {
     "revision": "13ffbb8de03c62ce33ef",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ca9d4dff259f2f95d3a901f811efbcf",
     "url": "/not-thirsty/static/media/bg-4.7ca9d4df.svg"
+  },
+  {
+    "revision": "b3d10481e4215cc7b492f7c87f1712a1",
+    "url": "/not-thirsty/static/media/bg-5.b3d10481.svg"
   },
   {
     "revision": "e97f03060b2949b3921bab2e5cff5b31",
