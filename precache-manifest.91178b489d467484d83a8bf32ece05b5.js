@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3401664e4772caef8fc7da3dd3684b5b",
+    "revision": "2ca40c42a0a75298d63f56fd16d75df2",
     "url": "/not-thirsty/index.html"
   },
   {
-    "revision": "03ba89ed30048908424d",
-    "url": "/not-thirsty/static/css/main.ad619481.chunk.css"
+    "revision": "9453d445dba88ea75326",
+    "url": "/not-thirsty/static/css/main.432fba52.chunk.css"
   },
   {
-    "revision": "4b0c0560f094c63f68dc",
-    "url": "/not-thirsty/static/js/2.5008bfa7.chunk.js"
+    "revision": "b2791bef915af2dbb4c5",
+    "url": "/not-thirsty/static/js/2.ea8f888e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/not-thirsty/static/js/2.5008bfa7.chunk.js.LICENSE.txt"
+    "url": "/not-thirsty/static/js/2.ea8f888e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "03ba89ed30048908424d",
-    "url": "/not-thirsty/static/js/main.353eaa20.chunk.js"
+    "revision": "9453d445dba88ea75326",
+    "url": "/not-thirsty/static/js/main.dd6f88c7.chunk.js"
   },
   {
     "revision": "13ffbb8de03c62ce33ef",
