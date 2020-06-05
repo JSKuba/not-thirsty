@@ -1,0 +1,26 @@
+.main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8rem;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/bg-5.svg");
+  background-size: 100% 100%;
+}
+
+.footer-span {
+  padding-top: 2rem;
+  color: #F9627D;
+}
+
+.footer-span a {
+  color: #E2007A;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Footer.css.map */

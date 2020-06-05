@@ -4,12 +4,12 @@ html {
   font-size: 13px;
 }
 
-h1, h2, h3, h4, nav, .random .clickme-btn, .characters, .team-member-name, .logo-follow,
+h1, h2, h3, h4, nav, .random .clickme-btn, .characters, .team-member-name, .logo-follow, .footer-span,
 .span-1, .span-2, .span-3, .span-4, .span-5 {
   font-family: 'Galada', cursive;
 }
 
-p, .clickme-btn, .label, .ingredient-card {
+p, .clickme-btn, .label, .ingredient-card, .dark-mode-switch-label {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -100,6 +100,10 @@ p {
 
 .team-member-name {
   font-size: 3rem;
+}
+
+.footer-span {
+  font-size: 1.5rem;
 }
 
 .span-1, .span-4, .span-5 {

@@ -1,0 +1,20 @@
+@import './colors';
+
+.main-footer {
+  display: flex;
+  margin-top: 8rem;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../img/bg-5.svg');
+  background-size: 100% 100%;
+}
+
+.footer-span {
+  padding-top: 2rem;
+  color: $color-2;
+  a {
+    color: $color-1;
+    text-decoration: none;
+  }
+}

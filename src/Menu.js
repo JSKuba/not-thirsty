@@ -11,22 +11,24 @@ const Menu = () => {
       <div className="wrapper">
         <h2>Menu</h2>
         <div className="card-row">
-          <div className="card-container">
-            <figure className="card-img-container">
-              {coctailsvg}
-              <div className="labels-container">
-                <figcaption className="label label-small">Girls choice</figcaption>
-              </div>
-            </figure>
-            <article className="card">
-              <h3>Pinky</h3>
-              <p>Strawberry flavoured 
-                medium power drink. Best 
-                choice for women, cause of 
-                this cute look!
-              </p>
-            </article>
-            <div className="bubbles">{bubblessvg}</div>
+          <div className="card-container-bg">
+            <div className="card-container">
+              <figure className="card-img-container">
+                {coctailsvg}
+                <div className="labels-container">
+                  <figcaption className="label label-small">Girls choice</figcaption>
+                </div>
+              </figure>
+              <article className="card">
+                <h3>Pinky</h3>
+                <p>Strawberry flavoured 
+                  medium power drink. Best 
+                  choice for women, cause of 
+                  this cute look!
+                </p>
+              </article>
+              <div className="bubbles">{bubblessvg}</div>
+            </div>
           </div>
           <aside className="aside-card">
             <span className="aside-span">$7.50</span>
@@ -35,19 +37,21 @@ const Menu = () => {
           </aside>
         </div>
         <div className="card-row">
-          <div className="card-container">
-            <figure className="card-img-container">
-              {coctailsvg}
-            </figure>
-            <article className="card">
-              <h3>Greena</h3>
-              <p>Who doesn't like kiwi? 
-                We're sure you will fall in love
-                with taste of kiwi and apple both. 
-                Its not absinth! 
-              </p>
-            </article>
-            <div className="bubbles">{bubblessvg}</div>
+          <div className="card-container-bg">
+            <div className="card-container">
+              <figure className="card-img-container">
+                {coctailsvg}
+              </figure>
+              <article className="card">
+                <h3>Greena</h3>
+                <p>Who doesn't like kiwi? 
+                  We're sure you will fall in love
+                  with taste of kiwi and apple both. 
+                  Its not absinth! 
+                </p>
+              </article>
+              <div className="bubbles">{bubblessvg}</div>
+            </div>
           </div>
           <aside className="aside-card">
             <span className="aside-span">$5.20</span>
@@ -56,22 +60,24 @@ const Menu = () => {
           </aside>
         </div>
         <div className="card-row">
-          <div className="card-container">
-            <figure className="card-img-container">
-              {coctailsvg}
-              <div className="labels-container">
-                <figcaption className="label label-small">Strong</figcaption>
-              </div>
-            </figure>
-            <article className="card">
-              <h3>Yello</h3>
-              <p>This banana boy looks peaceful, 
-                but don't trust first sight! He can show 
-                some real power.. but combined with great 
-                taste!
-              </p>
-            </article>
-            <div className="bubbles">{bubblessvg}</div>
+          <div className="card-container-bg">
+            <div className="card-container">
+              <figure className="card-img-container">
+                {coctailsvg}
+                <div className="labels-container">
+                  <figcaption className="label label-small">Strong</figcaption>
+                </div>
+              </figure>
+              <article className="card">
+                <h3>Yello</h3>
+                <p>This banana boy looks peaceful, 
+                  but don't trust first sight! He can show 
+                  some real power.. but combined with great 
+                  taste!
+                </p>
+              </article>
+              <div className="bubbles">{bubblessvg}</div>
+            </div>
           </div>
           <aside className="aside-card">
             <span className="aside-span">$12.00</span>
@@ -80,21 +86,23 @@ const Menu = () => {
           </aside>
         </div>
         <div className="card-row">
-          <div className="card-container">
-            <figure className="card-img-container">
-              {coctailsvg}
-              <div className="labels-container">
-                <figcaption className="label label-small">Award winner</figcaption>
-              </div>
-            </figure>
-            <article className="card">
-              <h3>Purplex</h3>
-              <p>Our favorite color - and drink! Its 
-                formula was invented by our CEO and kept in 
-                secret. We tried, and we don't regret! 
-              </p>
-            </article>
-            <div className="bubbles">{bubblessvg}</div>
+          <div className="card-container-bg">
+            <div className="card-container">
+              <figure className="card-img-container">
+                {coctailsvg}
+                <div className="labels-container">
+                  <figcaption className="label label-small">Award winner</figcaption>
+                </div>
+              </figure>
+              <article className="card">
+                <h3>Purplex</h3>
+                <p>Our favorite color - and drink! Its 
+                  formula was invented by our CEO and kept in 
+                  secret. We tried, and we don't regret! 
+                </p>
+              </article>
+              <div className="bubbles">{bubblessvg}</div>
+            </div>
           </div>
           <aside className="aside-card">
             <span className="aside-span">$15.80</span>

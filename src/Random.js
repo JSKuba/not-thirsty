@@ -7,7 +7,7 @@ const coctailsvg = <svg className="coctail-svg" data-name="Layer 1" xmlns="http:
 const Random = () => {
 
   return (
-    <section id="random">
+    <section id="random" className="lowered">
       <div className="wrapper">
         <div className="container">
           <article className="random-left">

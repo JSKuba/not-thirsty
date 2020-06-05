@@ -5,7 +5,7 @@ import contactImg from './img/contact.jpg'
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact" className="lowered">
       <div className="wrapper">
         <h2>Contact</h2>
         <div className="container">

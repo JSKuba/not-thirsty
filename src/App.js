@@ -8,6 +8,7 @@ import Random from './Random'
 import Result from './Result'
 import About from './About'
 import Contact from './Contact'
+import Footer from './Footer'
 import './styles/fonts.css'
 
 function addClassOnce(element, classToAdd) {
@@ -49,6 +50,30 @@ function setClassWhenVisible(elementsArray, classToAdd) {
   })
 }
 
+function removeClassWhenPassed(elementsArray, classToRemove) {
+  elementsArray = [...elementsArray]
+  elementsArray.map(element => {
+    if(window.pageYOffset + window.innerHeight > element.offsetTop) {
+      return removeClassOnce(element, classToRemove)
+    } else {
+      return null
+    }
+  })
+}
+
+function addClassWhenPassed(elementsArray, classToAdd) {
+  elementsArray = [...elementsArray]
+  elementsArray.map((element, i) => {
+    if(window.pageYOffset + window.innerHeight / 1.5 > element.offsetTop) {
+      return addClassOnce(element, classToAdd)
+    } else {
+      return null
+    }
+  })
+}
+
+
+
 function App() {
   
   useEffect(() => {
@@ -68,10 +93,16 @@ function App() {
       addClassOnce(document.getElementById('scroll-indicator'), 'hide')
       setClassWhenTop(document.getElementsByClassName('main-header')[0], 'shrink-main-header')
       setClassWhenVisible(document.getElementsByClassName('nav-item'), 'nav-item-active')
+      removeClassWhenPassed(document.getElementsByTagName('section'), 'lowered')
+      addClassWhenPassed(document.getElementsByClassName('card-container-bg'), 'reset')
     })
 
     document.getElementById('scroll-indicator').addEventListener('click', () => {
       window.scrollTo(0, document.getElementsByTagName('section')[1].offsetTop)
+    })
+
+    document.getElementById('dark-mode-switch').addEventListener('click', () => {
+      document.getElementsByTagName('body')[0].classList.toggle('dark-mode')
     })
 
   },[])
@@ -96,6 +127,7 @@ function App() {
           <Contact />
         </main>
       </div>
+      <Footer />
     </HelmetProvider>
   );
 }

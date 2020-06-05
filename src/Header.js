@@ -9,22 +9,30 @@ const hamburger = <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org
 const Header = () => {
   return (
     <header className="main-header nav-hidden">
-      <div className="hamburger-container">
-        {hamburger}
+      <div className="main-header-container">
+        <div className="hamburger-container">
+          {hamburger}
+        </div>
+        <div className="logo-container">
+          <img className="logo" src={Logo} alt="logo" />
+          <h1>!Thirsty</h1>
+        </div>
+        <nav className="main-nav">
+          <ul>
+            <li className="nav-item">Start</li>
+            <li className="nav-item">Menu</li>
+            <li className="nav-item">Random</li>
+            <li className="nav-item">About</li>
+            <li className="nav-item">Contact</li>
+          </ul>
+        </nav>
       </div>
-      <div className="logo-container">
-        <img className="logo" src={Logo} alt="logo" />
-        <h1>!Thirsty</h1>
+      <div className="dark-mode-switch-container">
+        <div className="dark-mode-switch">
+          <input id="dark-mode-switch" type="checkbox" />
+        </div>
+        <span className="dark-mode-switch-label">Dark Mode</span>
       </div>
-      <nav className="main-nav">
-        <ul>
-          <li className="nav-item">Start</li>
-          <li className="nav-item">Menu</li>
-          <li className="nav-item">Random</li>
-          <li className="nav-item">About</li>
-          <li className="nav-item">Contact</li>
-        </ul>
-      </nav>
     </header> 
   )
 }

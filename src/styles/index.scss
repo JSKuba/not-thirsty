@@ -19,9 +19,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 section {
   display: flex;
   flex-direction: column;
+  transition: 2s ease-out;
 }
 
 .wrapper {
@@ -53,6 +58,37 @@ h4 {
   padding: 1em 0;
   border: none;
   box-shadow: 3px 3px 9px #656565;
+}
+
+.lowered {
+  opacity: 0;
+  transform: translateY(200px);
+}
+
+.reset {
+  opacity: initial !important;
+  transform: initial !important;
+}
+
+.dark-mode {
+  background-color: #222222;
+  p {
+    color: #dddddd;
+  }
+  .aside-span {
+    color: #ffffff;
+  }
+  .dark-mode-switch input::before {
+    background-color: #222222;
+  }
+  .dark-mode-switch-label {
+    color: #dddddd;
+  }
+  #scroll-indicator {
+    .cls-1 {
+      fill: #222222;
+    }
+  }
 }
 
 .coctail-svg {

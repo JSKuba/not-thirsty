@@ -11,7 +11,7 @@ const josh = <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="lowered">
       <div className="wrapper">
         <h2>About</h2>
         <article className="about-upper">

@@ -19,6 +19,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,6 +31,8 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: 2s ease-out;
+  transition: 2s ease-out;
 }
 
 .wrapper {
@@ -66,6 +72,42 @@ h4 {
   border: none;
   -webkit-box-shadow: 3px 3px 9px #656565;
           box-shadow: 3px 3px 9px #656565;
+}
+
+.lowered {
+  opacity: 0;
+  -webkit-transform: translateY(200px);
+          transform: translateY(200px);
+}
+
+.reset {
+  opacity: initial !important;
+  -webkit-transform: initial !important;
+          transform: initial !important;
+}
+
+.dark-mode {
+  background-color: #222222;
+}
+
+.dark-mode p {
+  color: #dddddd;
+}
+
+.dark-mode .aside-span {
+  color: #ffffff;
+}
+
+.dark-mode .dark-mode-switch input::before {
+  background-color: #222222;
+}
+
+.dark-mode .dark-mode-switch-label {
+  color: #dddddd;
+}
+
+.dark-mode #scroll-indicator .cls-1 {
+  fill: #222222;
 }
 
 .coctail-svg .cls-1 {
