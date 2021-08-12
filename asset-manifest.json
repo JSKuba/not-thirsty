@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/not-thirsty/static/css/main.b52dc4ec.chunk.css",
-    "main.js": "/not-thirsty/static/js/main.4e085366.chunk.js",
-    "main.js.map": "/not-thirsty/static/js/main.4e085366.chunk.js.map",
+    "main.css": "/not-thirsty/static/css/main.c24939b0.chunk.css",
+    "main.js": "/not-thirsty/static/js/main.52d3014b.chunk.js",
+    "main.js.map": "/not-thirsty/static/js/main.52d3014b.chunk.js.map",
     "runtime-main.js": "/not-thirsty/static/js/runtime-main.bf6b7c2c.js",
     "runtime-main.js.map": "/not-thirsty/static/js/runtime-main.bf6b7c2c.js.map",
     "static/js/2.ea8f888e.chunk.js": "/not-thirsty/static/js/2.ea8f888e.chunk.js",
     "static/js/2.ea8f888e.chunk.js.map": "/not-thirsty/static/js/2.ea8f888e.chunk.js.map",
     "index.html": "/not-thirsty/index.html",
-    "precache-manifest.5c5e1d2009a3db412e2640e5bb86ef66.js": "/not-thirsty/precache-manifest.5c5e1d2009a3db412e2640e5bb86ef66.js",
+    "precache-manifest.5c26ca51484e0f9b361db4d40093f476.js": "/not-thirsty/precache-manifest.5c26ca51484e0f9b361db4d40093f476.js",
     "service-worker.js": "/not-thirsty/service-worker.js",
-    "static/css/main.b52dc4ec.chunk.css.map": "/not-thirsty/static/css/main.b52dc4ec.chunk.css.map",
+    "static/css/main.c24939b0.chunk.css.map": "/not-thirsty/static/css/main.c24939b0.chunk.css.map",
     "static/js/2.ea8f888e.chunk.js.LICENSE.txt": "/not-thirsty/static/js/2.ea8f888e.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/not-thirsty/static/media/about.dc0e6be9.jpg",
     "static/media/Start.css": "/not-thirsty/static/media/bg-1.c7f9cf86.svg",
@@ -19,13 +19,13 @@
     "static/media/Result.css": "/not-thirsty/static/media/bg-4.7ca9d4df.svg",
     "static/media/Footer.css": "/not-thirsty/static/media/bg-5.b3d10481.svg",
     "static/media/contact.jpg": "/not-thirsty/static/media/contact.e97f0306.jpg",
-    "static/media/logo.svg": "/not-thirsty/static/media/logo.11be3daf.svg",
+    "static/media/logo.svg": "/not-thirsty/static/media/logo.bb9d4f65.svg",
     "static/media/Menu.css": "/not-thirsty/static/media/shadow.47f8a402.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.bf6b7c2c.js",
     "static/js/2.ea8f888e.chunk.js",
-    "static/css/main.b52dc4ec.chunk.css",
-    "static/js/main.4e085366.chunk.js"
+    "static/css/main.c24939b0.chunk.css",
+    "static/js/main.52d3014b.chunk.js"
   ]
 }
